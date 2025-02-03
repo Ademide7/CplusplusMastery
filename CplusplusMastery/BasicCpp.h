@@ -1,5 +1,9 @@
 #pragma once
-class BasicCpp
-{
-};
+//class BasicCpp
+//{
+//	
+//};
+
+ void data_types();
+ void operators();
 
