@@ -133,6 +133,7 @@
     <ClCompile Include="CplusplusMastery.cpp" />
     <ClCompile Include="DSACpp.cpp" />
     <ClCompile Include="InnovationsAndIdeasCpp.cpp" />
+    <ClCompile Include="Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AdvancedCpp.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="BestPracticesCpp.h" />
     <ClInclude Include="DSACpp.h" />
     <ClInclude Include="InnovationsAndIdeasCpp.h" />
+    <ClInclude Include="Utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

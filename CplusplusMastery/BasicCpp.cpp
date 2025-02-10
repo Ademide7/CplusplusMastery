@@ -45,6 +45,14 @@ using namespace std;
     Dbl_int  new_type;
 
 	std::cout << "Data type ==> " << typeid(num).name() << " :: " << to_string(num);
+
+	// const value
+	const int fixed_value = 9;
+	//fixed_value = 8;
+
+	// typedef
+	typedef double long bigintDouble;
+	bigintDouble newType;
 }
 
  //Operators
@@ -111,8 +119,15 @@ using namespace std;
 	 cout << a << " > " << b << " = " << (a > b) << "\n";
 
 
-	 //String 
+	 
 
+
+ }
+
+ // OtherFuntionalitites
+ void otherFuntionalitites()
+ {
+	 //String 
 	 cout << "\n";
 	 cout << "String" << "\n";
 	 cout << "\n";
@@ -140,7 +155,7 @@ using namespace std;
 	 cout << "\n";
 
 	 int num1 = 123.9;
-	 int num2 = 7; 
+	 int num2 = 7;
 	 cout << num1 << " min " << num2 << " = " << min(num1, num2) << "\n";
 	 cout << num1 << " max " << num2 << " = " << max(num1, num2) << "\n";
 	 cout << " sqrt " << num2 << " = " << sqrt(num1) << "\n";
@@ -160,18 +175,18 @@ using namespace std;
 
 	 cout << "\n";
 	 string val = (num1 < 0) ? "less than zero" : "greater than zero"; // tenary operator
-	 cout << to_string(num1) + " is " << val << "\n" ;
+	 cout << to_string(num1) + " is " << val << "\n";
 
 	 switch (num1)
 	 {
-	   case 1: cout << "num1 is 1";
-		   break;
-	   case 2: cout << "num1 is 2";
-		   break;
-	   case 3: cout << "num1 is 3";
-		   break;
-	   default: cout << "num1 is " << to_string(num1);
-		   break;
+	 case 1: cout << "num1 is 1";
+		 break;
+	 case 2: cout << "num1 is 2";
+		 break;
+	 case 3: cout << "num1 is 3";
+		 break;
+	 default: cout << "num1 is " << to_string(num1);
+		 break;
 	 }
 
 	 cout << "\n";
@@ -191,7 +206,4 @@ using namespace std;
 		 //break;
 	 }
 	 cout << "\n";
-
-
  }
-
