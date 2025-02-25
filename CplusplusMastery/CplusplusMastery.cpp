@@ -6,6 +6,7 @@
 #include "AdvancedCpp.h"
 #include <string>;
 #include "Utilities.h" 
+#include "DSACpp.h"
 
 using namespace std;
 
@@ -41,6 +42,17 @@ int main()
 
     std::cout << "Time ==> current time : " <<  get_current_time(); cout << "\n";
     std::cout << "Time ==> Make time : " << make_time(2024,12,10,12,20,19); cout << "\n";
+
+    std::cout << "Random int value ==> " << generate_random_number(500); cout << "\n";
+
+    cout << "\n";
+    std::cout << "container_types ==> ";  container_types(); cout << "\n";
+
+
+    cout << "\n";
+    std::cout << "iterator_and_inbuilt_algorithim ==> ";  iterator_and_inbuilt_algorithim(); cout << "\n";
+
+
     return 0;
 }
 

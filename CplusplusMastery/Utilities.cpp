@@ -106,5 +106,11 @@ string make_time(int yr = 2000 , int mnt = 5, int day = 9, int hr = 12 , int min
 //string weekdays[] = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
 	//cout << "The date is on a " << weekdays[datetime.tm_wday];
 
-	//int diff = difftime(nextyear, now);
+//int diff = difftime(nextyear, now);
 	//cout << diff << " seconds until next year";
+
+
+string generate_random_number(int max)
+{
+	return to_string(rand() % max);
+}
